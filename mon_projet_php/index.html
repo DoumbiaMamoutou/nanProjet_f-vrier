@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>eco-TRANSACTION</title>
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<h1>BIENVENU SUR eco-TRANSACTION</h1>
+            <div id="page" class="container-fluid fullin showblockicons">
+                <div id="above-header">
+                    <div class="clearfix container userhead">
+                        <div class="pull-left">
+                            <ul class="usermenu2 nav navbar-nav navbar-right"></ul>            
+                        </div>
+
+                        <div class="headermenu row">
+                            <form action="" method="post">
+                                <input type="text" name="username"
+                                        placeholder="Nom de l'utilisateur" size="10">
+                                <input type="password" name="password"
+                                        placeholder="Mot de passe"  size="10">
+                                <button class="btn-login" type="submit">Connexion</button>
+                            </form>
+                        </div>
+
+                <div style="float: right; position: relative; display: inline; margin-left: 15px; height:20px;">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown-langmenu">
+                             <a href="" class="dropdown-toggle" data-toggle="dropdown" title="Langue"><i class="fa fa-globe fa-lg"></i><span class="langdesc">Français ‎(fr)‎</span>
+                                </a>
+                             <ul class="dropdown-menu">
+                                <li><a title="English ‎(en)‎" href="?lang=en">English ‎(en)‎</a></li>
+                                <li><a title="Français ‎(fr)‎" href="?lang=fr">Français ‎(fr)‎</a></li>
+                             </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                    </div>
+                </div>
+            </div>
+		</header>
+
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">MON SITE</a>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					
+				</div>
+
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a href="admin/inscription.php">ACCUEIL</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MENU<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+                                <!--<li role="separator" class="divider"></li>
+								<li><a href="#">SOLDE</a></li>-->
+                                <li role="separator" class="divider"></li>
+								<li><a href="admin/achat.php">ACHAT DE CREDIT</a></li>
+                                <li role="separator" class="divider"></li>
+								<li><a href="admin/transfert.php">TRANSFERT</a></li>
+								<!--<li role="separator" class="divider"></li>
+								<li><a href="#">FACTURES</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">ECOLES ET CONCOURS</a></li>-->
+							</ul>
+						</li>
+						<li><a href="#">MON COMPTE</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+        <div class="clear"></div>
+        <div id="image">
+            <h2 style="text-align:center; font-size:20px; font-weight:bold;">BIENVENUE SUR LE SITE DE TRANSFERT</h2>
+            <style>
+                #image
+                {
+                    height: 500px;
+                    width: 100%;
+                    background: url('image/argent.jpg') no-repeat;
+                    background-size: cover;
+                }
+                #image h2
+                {
+                   padding-top: 100px;
+                   color: darkorange;
+                   font-family: Elephant;
+                }
+            </style>
+        </div><br>
+        <div class="clear"></div>
+        <footer>
+            <div class="copyright">Copyright © 2016. Tous droits réservés.</div>
+        </footer>
+	</body>
+</html>
